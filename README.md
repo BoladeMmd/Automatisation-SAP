@@ -12,7 +12,7 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 
 **Contexte :** Mémoire de fin d'études - ESMT Dakar (2025) pour l'obtention du diplome d'Ingenieur de conception des Telecommunications spécialisé en Ingenierie des données et Intelligence Artificielle 
 
-**Problématique :** Le système existant repose sur Excel avec des traitements manuels, entraînant :
+**Problématique :** La DRS SFD s'appuie sur un systeme d'alerte precoce (SAP) pour la supervision financiere des instittions de microfinance mais le système existant repose sur Excel avec des traitements manuels, entraînant :
 - Risque élevé d'erreurs
 - Temps de traitement long
 - Absence de traçabilité
@@ -31,6 +31,10 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 **PostgreSQL**: Systeme de stockage des données 
 
 **Streamlit**: Visualisation interactive et interface utilisateur 
+
+# MISE EN OEUVRE DE LA SOLUTION 
+# 1- INSTALLATIONS ( Docker, docker compose, python 3.10+)
+
 
 
 
