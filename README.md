@@ -99,6 +99,26 @@ La figure ci-dessous illustre l’exécution du DAG du pipeline automatisé dép
 <img width="945" height="501" alt="image" src="https://github.com/user-attachments/assets/e554c4c1-4cbf-43d8-8827-691a52952dbc" />
 
 
+**INTERFACE UTILISATEUR**
+L'interface utilisateur a été developpée a l'aide de streamlit pour permettre une utilisation facile de la solution proposéé. Cette interface permet a l'utilisateur de : 
+1- Charger le fichier source
+
+2-Lancer le traitement des donneés automatisés via le declenchement du DAG 
+
+3-Visualiser les dashboards 
+
+4- Telecharger les fichiers generés 
+
+5- Filter les differnets institutions de micrifiance en fonction de leurs situation par rapports aux differents indicateurs financiers 
+
+
+<img width="957" height="481" alt="PLATEFORME DRS SFD GENERALE " src="https://github.com/user-attachments/assets/0ae88920-b8ba-4dad-9daa-df3834d62434" />
+
+
+
+
+
+
 
 
 
