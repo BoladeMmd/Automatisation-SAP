@@ -81,16 +81,16 @@ Une fois l'implementation des scripts terminée on se connecte a l'ui d'apache a
 Commande pour demarrer les services airflow 
 
 1- initialiser airflow
-```bash
+'''bash
 docker compose up airflow-init
 
 2-Demarrer tous les services d'airflow
-
-'sudo docker compose up -d'
+'''bash
+sudo docker compose up -d
 
 3-Verifier l'etat des services (tous les services doivent etre en mode "up")
-
-'sudo docker compose ps' 
+'''bash
+sudo docker compose ps 
 
 4-Acceder a l'interface d'airflow
 
