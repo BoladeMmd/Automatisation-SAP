@@ -20,9 +20,6 @@ Ce projet présente un pipeline de données ETL pour automatiser le traitement d
 
 **Solution :** Pipeline ETL pour automatiser le traitement des données du systeme d'alerte precoce.
 
-
-<img width="819" height="519" alt="image" src="https://github.com/user-attachments/assets/be4a46e6-ec90-4b81-898d-1b5e6c331718" />
-
 **Outils technologiques utilisés**
 
 **Apache Airflow**: Orchestrateur du flux ETL
