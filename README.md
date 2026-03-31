@@ -81,15 +81,19 @@ Une fois l'implementation des scripts terminée on se connecte a l'ui d'apache a
 Commande pour demarrer les services airflow 
 
 1- initialiser airflow
+
 docker compose up airflow-init
 
 2-Demarrer tous les services d'airflow
+
 sudo docker compose up -d
 
 3-Verifier l'etat des services (tous les services doivent etre en mode "up")
+
 sudo docker compose ps 
 
 4-Acceder a l'interface d'airflow
+
 URL : http://localhost:8080
 Login / mot de passe : airflow / airflow
 
@@ -102,7 +106,8 @@ La figure ci-dessous illustre l’exécution du DAG du pipeline automatisé dép
 
 **INTERFACE UTILISATEUR**
 
-L'interface utilisateur a été developpée a l'aide de streamlit pour permettre une utilisation facile de la solution proposéé. Cette interface permet a l'utilisateur de : 
+L'interface utilisateur a été developpée a l'aide de streamlit pour permettre une utilisation facile de la solution proposéé. Cette interface permet a l'utilisateur de :
+
 1- Charger le fichier source
 
 2-Lancer le traitement des donneés automatisés via le declenchement du DAG 
@@ -122,7 +127,8 @@ L'interface utilisateur a été developpée a l'aide de streamlit pour permettre
 
 Note: Comme vous povez le constater sur l'immage , l'utilisateur charge un fichier "ratios" constituant le fichier souce en suite une fois le fichier chargé , il lance le traitement au cous duquel il sera redirigé automatiquement vers l'UI d'airflow pour declencher le DAG et une fois le DAG executé , il peut visualiser les graphiques analytiques(selectionner les differentes piriodes qu'il désire visualiser)  puis telecharger l'ensemble des fichers génerés sous format archive ZIP puis ensuite effectuer des filtres sur les differents institutions de microfinances en fonction de leurs situatuions par rappport aux differents indicateurs financiers.
 
-NB: Pour des raisions de confidentialités je ne pourrai pas mettre a disposition le code source de ce projet 
+NB: Pour des raisions de confidentialités je ne pourrai pas mettre a disposition le code source de ce projet
+
 Merci pour la comprehension !!!
 
 
