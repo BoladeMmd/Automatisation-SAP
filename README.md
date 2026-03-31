@@ -105,6 +105,8 @@ La figure ci-dessous illustre l’exécution du DAG du pipeline automatisé dép
 
 
 
+
+
 **INTERFACE UTILISATEUR**
 
 L'interface utilisateur a été developpée a l'aide de streamlit pour permettre une utilisation facile de la solution proposéé. Cette interface permet a l'utilisateur de :
