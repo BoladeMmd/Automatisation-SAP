@@ -306,6 +306,23 @@ Note: Comme vous povez le constater sur l'immage , l'utilisateur charge un fichi
 
 
 
+**Impactes du projet**
+
+- **Fiabilité accrue** : réduction des erreurs liées aux fichiers Excel manuels grâce à un pipeline automatisé.
+  
+- **Gain de temps** : traitement automatisé et redaction rapide des rapports financiers, accélérant la supervision des institutions de microfinance.
+  
+- **Traçabilité renforcée** : chaque étape est orchestrée et loggée par Airflow, garantissant transparence et suivi.
+  
+- **Meilleure prise de décision** : consolidation des indicateurs financiers pour appuyer les choix stratégiques de régulation.
+  
+- **Scalabilité** : architecture conteneurisée (Docker + Airflow) facilitant le déploiement et la maintenance.
+  
+- **Accessibilité** : interface Streamlit intuitive permettant aux utilisateurs non techniques  de visualiser, filtrer et télécharger les résultats facilitant l'usage de la solution.
+
+En résumé, ce projet transforme un processus manuel fragile en un **pipeline robuste, automatisé et interactif**, avec un impact direct sur la qualité de la supervision financière et la rapidité des décisions.
+
+
 **Auteur** : Boladé MAMADOU
 
 **Mail**: bolademamadou7@gmail.com 
