@@ -297,6 +297,10 @@ L'interface utilisateur a été developpée a l'aide de streamlit pour permettre
 <img width="957" height="481" alt="PLATEFORME DRS SFD GENERALE " src="https://github.com/user-attachments/assets/0ae88920-b8ba-4dad-9daa-df3834d62434" />
 
 
+<img width="830" height="305" alt="image" src="https://github.com/user-attachments/assets/2f39f544-a2d4-45ac-9103-5ed77d97c75b" />
+
+
+
 
 Note: Comme vous povez le constater sur l'immage , l'utilisateur charge un fichier "ratios" constituant le fichier souce en suite une fois le fichier chargé , il lance le traitement au cous duquel il sera redirigé automatiquement vers l'UI d'airflow pour declencher le DAG et une fois le DAG executé , il peut visualiser les graphiques analytiques(selectionner les differentes piriodes qu'il désire visualiser)  puis telecharger l'ensemble des fichers génerés sous format archive ZIP puis ensuite effectuer des filtres sur les differents institutions de microfinances en fonction de leurs situatuions par rappport aux differents indicateurs financiers.
 
