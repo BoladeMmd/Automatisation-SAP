@@ -99,6 +99,7 @@ URL : http://localhost:8080
 Login / mot de passe : airflow / airflow
 
 5- Execution du DAG  
+Une fois connecté a Airflow nous recherchons dans la section DAG le nom de notre DAG et le declencher 
 La figure ci-dessous illustre l’exécution du DAG du pipeline automatisé déployé pour le traitement des données du système d’alerte précoce de la DRS, montrant que l’ensemble des tâches a été exécuté avec succès, validant la robustesse et la fiabilité du pipeline automatisé.
 
 <img width="945" height="501" alt="image" src="https://github.com/user-attachments/assets/e554c4c1-4cbf-43d8-8827-691a52952dbc" />
