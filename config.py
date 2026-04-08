@@ -1,3 +1,4 @@
+# FONCTION POUR CONNECTER LA BASE DE DONNEES A AIRFLOW
 # config.py
 
 #AIRFLOW_API = "http://localhost:8080/api/v1"
@@ -8,7 +9,7 @@ POSTGRES = {
     "port": 5432,
     "db": "db_drs",
     "user": "postgres",
-    "password": "passer"
+    "password": "****"
 }
 
 AIRFLOW_INPUT_PATH = "/opt/airflow/data/input/ratios.xlsx"
