@@ -340,6 +340,21 @@ En résumé, ce projet transforme un processus manuel fragile en un **pipeline r
 
 ```
 
+
+- **app3.py :** code source principal de l’interface utilisateur.
+
+- **airflow_client.py :** fonctions liées à l’orchestration et à la communication avec Airflow.
+
+- **auth.py :** gestion de l’authentification et des accès.
+
+- **config.py :** paramètres et configuration du projet.
+
+- **dashboards.py :** génération et intégration des visualisations.
+
+- **db.py :** gestion de la base de données et des interactions SQL.
+
+
+
 Les fichiers airflow_client, auth, db, config et dashboards sont les differentes fonctions constitutives de la fonction principale **app3** qui constitue le code source de l'interface utilisateur.  
 
 **Auteur** : Boladé MAMADOU
