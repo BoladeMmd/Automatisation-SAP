@@ -241,12 +241,13 @@ with DAG(
 
 ```
 
-**Note** : Les "task_id" represente les differents scripts implémentés pour chaque tache a effectué. Par exemple la tache **"situation_to_recap_trim"** assure la transformation de la table **"situation"** en **"recap_trim"** en fonction des **règles métiers**. Pour des raisions de confidentialité ces scripts ne seront pas publiés.
+
+**Note** : Les **"task_id"** represente les differents scripts implémentés pour chaque tache a effectué. Par exemple la tache **"situation_to_recap_trim"** assure la transformation de la table **"situation"** en **"recap_trim"** en fonction des **règles métiers**. Pour des raisions de confidentialité ces scripts ne seront pas publiés.
 
 
-Une fois l'implementation des scripts terminée on se connecte a l'UI d'apache airflow et executer notre DAG
+Une fois l'implementation des scripts terminée on se connecte a l'UI d'apache airflow et execute le DAG
 
-**Commande pour demarrer les services airflow** 
+**Etapes pour executer le DAG** 
 
 1- initialiser airflow
 ```bash
