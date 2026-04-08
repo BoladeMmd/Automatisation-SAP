@@ -326,6 +326,22 @@ Note: Comme vous povez le constater sur l'immage , l'utilisateur charge un fichi
 En résumé, ce projet transforme un processus manuel fragile en un **pipeline robuste, automatisé et interactif**, avec un impact direct sur la qualité de la supervision financière et la rapidité des décisions.
 
 
+## Structure du depot 
+
+```bash
+|Automatisation-SAP
+|___README.md
+|__airflow_client.py
+|__app3.py
+|__auth.py
+|__config.py
+|__dashboards.py
+|__db.py
+
+```
+
+Les fichiers airflow_client, auth, db, config et dashboards sont les differentes fonctions constitutives de la fonction principale **app3** qui constitue le code source de l'interface utilisateur.  
+
 **Auteur** : Boladé MAMADOU
 
 **Mail**: bolademamadou7@gmail.com 
